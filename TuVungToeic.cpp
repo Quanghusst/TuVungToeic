@@ -1,0 +1,112 @@
+#include <iostream>
+#include <string>
+#include<conio.h>
+using namespace std;
+void Translate(string a, string b){
+    cout << a ;
+    getchar();
+    cout << b << endl;
+    getchar();
+}
+int main (){
+    string tieng_anh;
+    string tieng_viet;
+    Translate("Railing", "lan can");
+    Translate("Put on", "dang deo");
+    Translate("wear", "da deo san tren nguoi");
+    Translate("lean over", "tua vao");
+    Translate("hold", "cam");
+    Translate("cabinet", "tu dung do");
+    Translate("passengers", "hanh khach");
+    Translate("line up", "xep hang");
+    Translate("gather", "tu tap");
+    Translate("reaching", "voi toi");
+    Translate("carry", "mang vac");
+    Translate("spectators", "nguoi xem o ngoai troi");
+    Translate("cash", "tien mat");
+    Translate("cash register", "may tinh tien");
+    Translate("fill", "lap day *am ngan");
+    Translate("feel", "cam nhan *am dai");
+    Translate("arrange", "sap xep");
+    Translate("jewelry", "trang suc");
+    Translate("display rack", "gia trung bay");
+    Translate("try on", "thu");
+    Translate("bracelets", "vong tay");
+    Translate("hanger", "moc quan ao");
+    Translate("merchandise", "hang hoa");
+    Translate("grocery", "hang hoa");
+    Translate("fence", "hang rao");
+    Translate("sweep", "quet");
+    Translate("stair", "cau thang");
+    Translate("leave", "roi di hoac bo lai *am dai");
+    Translate("live", "song *am ngan");
+    Translate("point at", "chi vao");
+    Translate("badge", "the ghi chuc danh");
+    Translate("counter", "quay tinh tien");
+    Translate("fold", "gap");
+    Translate("handbag", "tui deo tay");
+    Translate("take off", "coi >< put on");
+    Translate("brochure", "to quang cao xin");
+    Translate("leaflets", "to roi");
+    Translate("assemble", "lap rap");
+    Translate("construction", "xay dung");
+    Translate("climb", "leo treo *b cam");
+    Translate("alongside", "doc theo");
+    Translate("hang", "treo");
+    Translate("comlb", "chai (dau)");
+    Translate("distribute", "phan phat");
+    Translate("handouts", "tai lieu truyen tay");
+    Translate("greeting", "loi chao");
+    Translate("pull", "keo");
+    Translate("push", "day");
+    Translate("suitcase", "hanh ly");
+    Translate("luggage", "hanh ly");
+    Translate("stand in line", "xep hang");
+    Translate("loading into", "tai vao");
+    Translate("memos", "thong bao(ban ghi nho)");
+    Translate("attach", "dinh (gan)");
+    Translate("bullet in board", "bang thong bao");
+    Translate("monitor", "man hinh may tinh");
+    Translate("corner", "goc");
+    Translate("grassy", "nhieu co");
+    Translate("path", "duong nho");
+    Translate("fountain", "dai phun nuoc");
+    Translate("bench", "ghe dai");
+    Translate("rake", "cai cao");
+    Translate("leaf", "la");
+    Translate("leaves", "la so nhieu");
+    Translate("pave", "lat duong be tong");
+    Translate("pavement", "via he");
+    Translate("hand rail", "lan can co tay vin");
+    Translate("shade", "bong (do bong)");
+    Translate("branch", "canh cay (chi nhanh)");
+    Translate("fixture", "co dinh");
+    Translate("perdestrians", "nguoi di bo");
+    Translate("intersection", "nga tu");
+    Translate("scaffold", "gian giao");
+    Translate("erect", "dung len");
+    Translate("archway", "cong vom");
+    Translate("ceiling", "tran nha");
+    Translate("pots", "chau");
+    /*
+    Translate("", "");
+    Translate("", "");
+    Translate("", "");
+    Translate("", "");
+    Translate("", "");
+    Translate("", "");
+    Translate("", "");
+    Translate("", "");
+    Translate("", "");
+    Translate("", "");
+    Translate("", "");
+    Translate("", "");
+    Translate("", "");
+    Translate("", "");
+    Translate("", "");
+    Translate("", "");
+    Translate("", ""); 
+    */
+    return 0;
+
+}
