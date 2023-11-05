@@ -6,9 +6,6 @@ struct TuVung
 {
     string tu_tieng_anh;
     string tu_tieng_viet;
-    // friend ostream& operator << (ostream &os, TuVung &a){
-    //     os << a.tu_tieng_anh
-    // }
 };
 
 void Translate(TuVung a[], int so_tu){
