@@ -99,7 +99,7 @@ int main (){
         {"archway", "cong vom"},
         {"ceiling", "tran nha"},
         {"pots", "chau"},
-        {"Organize", "sap xep"},/*tu so 78*/
+        {"Organize", "sap xep"},
         {"measure", "do dac"},
         {"exchange", "trao doi"},
         {"installation", "su sap dat"},
