@@ -6,9 +6,6 @@ struct TuVung
 {
     string tu_tieng_anh;
     string tu_tieng_viet;
-    // friend ostream& operator << (ostream &os, TuVung &a){
-    //     os << a.tu_tieng_anh
-    // }
 };
 
 void Translate(TuVung a[], int so_tu){
@@ -22,7 +19,8 @@ void Translate(TuVung a[], int so_tu){
     
 }
 int main (){
-    int so_tu = 91;
+    int A = 123;
+    int so_tu = A - 25 + 1;
     TuVung toeic[so_tu] = {
         {"Railing", "lan can"},
         {"Put on", "dang deo"},
@@ -101,7 +99,7 @@ int main (){
         {"archway", "cong vom"},
         {"ceiling", "tran nha"},
         {"pots", "chau"},
-        {"Organize", "sap xep"}/*tu so 78*/
+        {"Organize", "sap xep"},/*tu so 78*/
         {"measure", "do dac"},
         {"exchange", "trao doi"},
         {"installation", "su sap dat"},
@@ -115,10 +113,17 @@ int main (){
         {"brower", "ngam nghia"},
         {"unoccupied", "khong co nguoi"},
         {"carpeting ", "tam tham"},
-    /*
         {"various ", "nhieu"},
-        {"lifting ", "nang (ta)" },
-    */
+        {"lifting ", "nang (ta)"},
+        {"pack","dong goi"},
+        {"presentation","bai thuyet trinh"},
+        {"trim","tia (cay)"},
+        {"lawn","bai co"},
+        {"overlooking","nhin ra"},
+        {"beneath","duoi"}
+        // {"",""},
+        // {"",""},
+        // {"",""},
     };
     Translate(toeic, so_tu);
     return 0;
