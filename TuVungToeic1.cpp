@@ -19,7 +19,7 @@ void Translate(TuVung a[], int so_tu){
     
 }
 int main (){
-    int A = 123;
+    int A = 131;
     int so_tu = A - 25 + 1;
     TuVung toeic[so_tu] = {
         {"Railing", "lan can"},
@@ -120,10 +120,44 @@ int main (){
         {"trim","tia (cay)"},
         {"lawn","bai co"},
         {"overlooking","nhin ra"},
-        {"beneath","duoi"}
+        {"beneath","duoi"},
+        {"pour","rot"},
+        {"apron","tap de"},
+        {"garment","hang may mac"},
+        {"toward","huong"},
+        {"curtains","rem cua"},
+        {"purchase","mua"},
+        {"metal","kim loai"},
+        {"direct","truc tiep"},
         // {"",""},
         // {"",""},
         // {"",""},
+        // {"",""},
+        // {"",""},
+        // {"",""},
+        // {"",""},
+        // {"",""},
+        // {"",""},
+        // {"",""},
+        // {"",""},
+        // {"",""},
+        // {"",""},
+        // {"",""},
+        // {"",""},
+        // {"",""},
+        // {"",""},
+        // {"",""},
+        // {"",""},
+        // {"",""},
+        // {"",""},
+        // {"",""},
+        // {"",""},
+        // {"",""},
+        // {"",""},
+        // {"",""},
+        // {"",""},
+        // {"",""},
+        // {"",""}
     };
     Translate(toeic, so_tu);
     return 0;
