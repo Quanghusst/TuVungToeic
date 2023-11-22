@@ -19,7 +19,8 @@ void Translate(TuVung a[], int so_tu){
     
 }
 int main (){
-    TuVung toeic[205 - 25 + 1] = {
+    const int so_tu = 205 - 25 + 1;
+    TuVung toeic[] = {
         {"Railing", "lan can"},
         {"Put on", "dang deo"},
         {"wear", "da deo san tren nguoi"},
